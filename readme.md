@@ -2,15 +2,17 @@
 
 ## Description
 
-This project uses Flask, Flask-RESTful, Flask-SQLAlchemy, Flask-JWT, uwsgi & psycopg2. It's a REST API that allows to create your own store with each store having specific items.
+This project uses Flask, Flask-RESTful, Flask-SQLAlchemy, Flask-JWT, uwsgi & psycopg2.
+
+It's a REST API that allows to create your own store with each store having specific items.
 
 ## Resources
 
 ### There are three resources you can make use of
 
-UserRegister
-Item
-Store
+- UserRegister
+- Item
+- Store
 
 ## UserRegister
 
@@ -26,7 +28,9 @@ To register a new user, you can call the https://stores-res-flask.herokuapp.com/
 ## Store
 
 The store resource will allow you to create, read, and delete a store. There's no updating for a store.
+
 To create/read/delete a store, you need to send data to this endpoint https://stores-res-flask.herokuapp.com/store/[name]
+
 To retrieve a list of stores with their items, you need to send data to this endpoint https://stores-res-flask.herokuapp.com/stores
 
 ## Item
