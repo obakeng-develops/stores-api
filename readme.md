@@ -36,7 +36,9 @@ To retrieve a list of stores with their items, you need to send data to this end
 ## Item
 
 The item resource will allow you to create, read, update and delete an item from a specific store.
+
 To create/read/delete/update an item, you need to send data to this endpoint https://stores-res-flask.herokuapp.com/item/[name]
+
 To retrieve a list of items, you need to send data to this endpoint To create/read/delete a store, you need to send data to this endpoint https://stores-res-flask.herokuapp.com/items
 
 ### Enjoy!
